@@ -10,7 +10,7 @@ The above are used to store and retrieve JSON data of the songs that the user li
 
 
 
-/aiPredictions
+/aiPredictions \n
 /aiPredictions/predictionID
 
 The above are used to store and retrieve JSON data of the predictions made by the Tensorflow model.

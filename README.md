@@ -18,5 +18,7 @@ The above are used to store and retrieve JSON data of the predictions made by th
 
 /allSongs
 /allSongs/songID
+
+
 The above are used to store data about all of the songs on my computer onto the mongodb server. The tensorflow model makes a prediction based on BPM of the songs stored in the /songID route and then compares the array of prediction values to the songs in /allSongs. The results are placed in /aiPredictions.
 

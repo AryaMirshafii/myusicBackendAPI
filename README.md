@@ -3,20 +3,23 @@ An API for the Myuzic IOS application that implements REST and CRUD standards. T
 
 The API can be run by typing "npm run start" into the terminal. This will launch the mongodb instance, open the API for any http requests, and run the back end to start making predictions every 2 minutes.
 
-This API has 4 Routes
+This API has 6 Routes
 /songs
 /songs/songID
 The above are used to store and retrieve JSON data of the songs that the user listened to.
 
 
 
-/aiPredictions \n
+/aiPredictions 
+
 /aiPredictions/predictionID
 
 The above are used to store and retrieve JSON data of the predictions made by the Tensorflow model.
 
 
+
 /allSongs
+
 /allSongs/songID
 
 

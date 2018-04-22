@@ -1,4 +1,4 @@
-An API for the Myuzic IOS application that implements REST and CRUD standards. The api allows the Myuzic app to store and retrieve data about songs the user listened to, as well as analyzing this data using a TensorFlow neural network linear regression model. The output of this TensorFlow model is stored and returned through the /aiPredictions routes. The TensorFlow model is written in Python and Keras.
+An API for the Myuzic IOS application that implements REST standards. The api allows the Myuzic app to store and retrieve data about songs the user listened to, as well as analyzing this data using a TensorFlow neural network linear regression model. The output of this TensorFlow model is stored and returned through the /aiPredictions routes. The TensorFlow model is written in Python and Keras.
 
 
 The API can be run by typing "npm run start" into the terminal. This will launch the mongodb instance, open the API for any http requests, and run the back end to start making predictions every 2 minutes.

@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run startMongo && (npm run startAPI & npm run startBackend)",
-    "startMongo": "sudo mongod",
+    "start": "npm run startMongo & (npm run startAPI & npm run startBackend)",
+    "startMongo": "ttab 'sudo mongod' ",
     "startAPI": "nodemon server.js",
     "startBackend": "python backendPython.py",
     "stop": "sudo port unload mongodb",

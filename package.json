@@ -4,10 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    
+    
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run startMongo & (npm run startAPI & npm run startBackend)",
-    "startMongo": "ttab 'sudo mongod' ",
-    "startAPI": "nodemon server.js",
+    "startapi": "npm run startserver & npm run startBackend",
+    "startmongo": "ttab 'sudo mongod' ",
+    "startserver": "nodemon server.js",
     "startBackend": "python backendPython.py",
     "stop": "sudo port unload mongodb",
     "aryaIsHandsome": "echo \"Arya Is sooooo handsome!\" && exit 1"
